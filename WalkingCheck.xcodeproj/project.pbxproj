@@ -11,6 +11,10 @@
 		391DFCC32BDA3CDF00B0A467 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391DFCC22BDA3CDF00B0A467 /* ContentView.swift */; };
 		391DFCC52BDA3CFB00B0A467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391DFCC42BDA3CFB00B0A467 /* Assets.xcassets */; };
 		391DFCC82BDA3CFB00B0A467 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391DFCC72BDA3CFB00B0A467 /* Preview Assets.xcassets */; };
+		391DFCD02BDA3E6300B0A467 /* WalkingDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391DFCCF2BDA3E6300B0A467 /* WalkingDay.swift */; };
+		391DFCD32BDA3EC800B0A467 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391DFCD22BDA3EC800B0A467 /* ListView.swift */; };
+		391DFCD72BDA3F4400B0A467 /* WalkingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391DFCD62BDA3F4400B0A467 /* WalkingListViewModel.swift */; };
+		391DFCDE2BDA53DA00B0A467 /* MonthlyResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391DFCDD2BDA53DA00B0A467 /* MonthlyResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		391DFCC22BDA3CDF00B0A467 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		391DFCC42BDA3CFB00B0A467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		391DFCC72BDA3CFB00B0A467 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		391DFCCF2BDA3E6300B0A467 /* WalkingDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingDay.swift; sourceTree = "<group>"; };
+		391DFCD22BDA3EC800B0A467 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		391DFCD62BDA3F4400B0A467 /* WalkingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingListViewModel.swift; sourceTree = "<group>"; };
+		391DFCDD2BDA53DA00B0A467 /* MonthlyResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				391DFCC02BDA3CDF00B0A467 /* WalkingCheckApp.swift */,
-				391DFCC22BDA3CDF00B0A467 /* ContentView.swift */,
+				391DFCD12BDA3EA400B0A467 /* Views */,
+				391DFCCE2BDA3E4B00B0A467 /* Model */,
 				391DFCC42BDA3CFB00B0A467 /* Assets.xcassets */,
 				391DFCC62BDA3CFB00B0A467 /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				391DFCC72BDA3CFB00B0A467 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		391DFCCE2BDA3E4B00B0A467 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				391DFCCF2BDA3E6300B0A467 /* WalkingDay.swift */,
+				391DFCD62BDA3F4400B0A467 /* WalkingListViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		391DFCD12BDA3EA400B0A467 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				391DFCC22BDA3CDF00B0A467 /* ContentView.swift */,
+				391DFCDD2BDA53DA00B0A467 /* MonthlyResultView.swift */,
+				391DFCD22BDA3EC800B0A467 /* ListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391DFCD72BDA3F4400B0A467 /* WalkingListViewModel.swift in Sources */,
 				391DFCC32BDA3CDF00B0A467 /* ContentView.swift in Sources */,
+				391DFCD32BDA3EC800B0A467 /* ListView.swift in Sources */,
+				391DFCD02BDA3E6300B0A467 /* WalkingDay.swift in Sources */,
+				391DFCDE2BDA53DA00B0A467 /* MonthlyResultView.swift in Sources */,
 				391DFCC12BDA3CDF00B0A467 /* WalkingCheckApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
